@@ -11,7 +11,7 @@ import Toast from "./toast";
 
 export const login = async (email, password) => {
     try {
-        const {data, status} = await axios.post("http://127.0.0.1:8000/api/v1/user/token/", {
+        const {data, status} = await axios.post("https://django-react-hr-system.onrender.com/api/v1/user/token/", {
             email,
             password
         })
@@ -74,7 +74,7 @@ export const setAuthUser = (access_token, referesh_token) => {
 
 export const getRefreshToken = async () => {
     const referesh_token = Cookies.get("refresh_token")
-    const response = await axios.post('user/token/refresh/',{
+    const response = await axios.post('https://django-react-hr-system.onrender.com/api/v1/user/token/refresh/',{
         refresh: referesh_token
     })
 
