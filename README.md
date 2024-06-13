@@ -19,7 +19,9 @@ Check out the live demo of HR System [here](https://666b241b7b5d7f6a172559c3--ch
 - **Attendance Management:** HR employees can add attendance for each employee and choose a date.
 
 ##
-email: testhr@gmail.com
-password: Test12345
+- **email:** testhr@gmail.com
+- **password:** Test12345
+
+
 
 
